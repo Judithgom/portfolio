@@ -307,6 +307,7 @@ p {
 .letter:nth-child(9) { animation-delay: 1.6s; }
 .letter:nth-child(10) { animation-delay: 1.8s; }
 .letter:nth-child(11) { animation-delay: 2s; }
+.letter:nth-child(12) { animation-delay: 2s; }
 
 @keyframes fall {
   to {
