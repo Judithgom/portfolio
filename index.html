@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Judith Gomez | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <div class="brand">
+
+            <h1>JUDITH GOMEZ</h1>
+
+            <p>
+                Ingénierie pédagogique & Digital Learning
+            </p>
+
+        </div>
+
+        <a class="linkedin-btn"
+            href="https://www.linkedin.com/in/judith-paola-g%C3%B3mez-01b092278/"
+            target="_blank">
+
+            LinkedIn
+
+        </a>
+
+    </header>
+
+    <aside class="sidebar">
+
+        <p class="menu-title">
+            MENU
+        </p>
+
+        <div class="progress-wrapper">
+
+            <div class="progress-head">
+
+                <span>PARCOURS</span>
+                <span id="percent">0%</span>
+
+            </div>
+
+            <div class="progress-bar">
+
+                <div class="progress-fill"></div>
+
+            </div>
+
+        </div>
+
+        <nav>
+
+            <a href="#accueil" class="nav-link active">
+                <span>01</span> Accueil
+            </a>
+
+            <a href="#projets" class="nav-link">
+                <span>02</span> Projets
+            </a>
+
+            <a href="#competences" class="nav-link">
+                <span>03</span> Compétences
+            </a>
+
+            <a href="#outils" class="nav-link">
+                <span>04</span> Outils numériques
+            </a>
+
+            <a href="#methode" class="nav-link">
+                <span>05</span> Méthode
+            </a>
+
+                <a href="#hobbies" class="nav-link">
+                <span>06</span> Création & Univers visuel
+            </a>
+
+            <a href="#contact" class="nav-link">
+                <span>07</span> Contact
+            </a>
+
+        </nav>
+
+    </aside>
+
+    <main class="content">
+
+        <!-- ACCUEIL -->
+
+        <section id="accueil">
+
+            <div class="hero-layout">
+
+                <div class="hero-text">
+
+                    <p class="section-label">
+                        ÉTAPE 01
+                    </p>
+
+                    <h2>
+                        Ingénieure pédagogique<br>
+                        <span class="accent-word">numérique.</span>
+                    </h2>
+
+                    <p class="intro">
+
+                        Passionnée par l’e-learning, le design et l’évaluation formative, j’ai évolué dans l’enseignement, la communication et l’ingénierie pédagogique. Aujourd’hui, j’analyse les situations de travail et accompagne les experts métier dans la transformation de leurs savoir-faire en dispositifs de formation. J’interviens sur la scénarisation pédagogique, la conception de ressources visuelles et multimédias, ainsi que sur l’intégration de contenus sur différents outils auteurs. 
+                    </p>
+
+                </div>
+
+                <div class="hero-photo">
+    <img src="photo.jpeg" alt="Judith Gomez">
+</div>
+
+            </div>
+
+        </section>
+
+        <!-- PROJETS -->
+                    
+
+<section id="projets">
+
+    <p class="section-label">
+        ÉTAPE 02
+    </p>
+
+    <h2>Projets</h2>
+
+    <p class="projects-intro">
+
+        Quelques exemples de réalisations en conception e-learning, production de ressources numériques et intégration.
+
+    </p>
+
+    <div class="projects-grid">
+
+        <!-- PROJET 1 -->
+
+        <article class="project-preview">
+
+            <img
+                src="photoprojets/1mesure.png"
+                alt="Mesure industrielle">
+
+            <h3>
+                E-Learning « La mesure industrielle chez Orano »
+            </h3>
+
+            <p>
+
+                Module e-learning d’initiation à la métrologie industrielle intégrant cas concrets et activités interactives.
+
+            </p>
+<button
+    class="project-link"
+    onclick="openMesureModal()">
+
+    En savoir plus 
+
+</button>
+
+        </article>
+
+        <!-- PROJET 2 -->
+
+        <article class="project-preview">
+
+            <img
+                src="photoprojets/1prise.png"
+                alt="Prises de vues">
+
+            <h3>
+                E-Learning « Prises de vues » chez Orano 
+            </h3>
+
+            <p>
+
+                Formation destinée à l’acquisition des fondamentaux de la prise de photographie sur le terrain.
+
+            </p>
+
+            <button
+    type="button"
+    class="project-link"
+    onclick="openPrisesModal()">
+    En savoir plus 
+</button>
+
+        </article>
+
+        <!-- PROJET 3 -->
+
+        <article class="project-preview">
+
+            <img
+                src="photoprojets/valise.png"
+                alt="Rise">
+
+            <h3>
+                Rise - Valise de défaillances électriques chez Orano 
+            </h3>
+
+            <p>
+
+                Parcours interactif consacré à la détection de défaillances électriques et au diagnostic terrain.
+
+            </p>
+
+           <button
+    type="button"
+    class="project-link"
+    onclick="openValiseModal()">
+    En savoir plus 
+</button>
+
+        </article>
+
+        <!-- PROJET 4 : FRANÇAIS CHWIYA B CHWIYA -->
+<article class="project-preview">
+    <img src="photoprojets/1AccessTeleservices.png" alt="Français chwiya b chwiya chez Access Teleservices">
+    <h3>E-Learning « Français chwiya b chwiya » chez Access Teleservices</h3>
+    <p>
+        Dispositif e-learning dédié aux téléconseillers arabophones pour fluidifier l'expression orale et la relation client à travers des appels simulés.
+    </p>
+    <button type="button" class="project-link" onclick="openChwiyaModal()">
+        En savoir plus 
+    </button>
+</article>
+
+<!-- PROJET 5 : START-E-FLE -->
+<article class="project-preview">
+    <img src="photoprojets/star.png" alt="START-e-FLE">
+    <h3>START-e-FLE — Parcours FLE en autonomie</h3>
+    <p>
+        Parcours de français langue étrangère 100 % en autonomie pour grands débutants, préparant aux cours hybrides ou présentiels du CUEF.
+    </p>
+    <button type="button" class="project-link" onclick="openStartFleModal()">
+        En savoir plus 
+    </button>
+</article>
+
+<!-- PROJET 6 : RÉDIGER UN BON PROMPT EN MARKETING -->
+<article class="project-preview">
+    <img src="photoprojets/prompt.png" alt="Rédiger un bon prompt en marketing">
+    <h3>Module e-learning « Rédiger un bon prompt en marketing »</h3>
+    <p>
+        Activités interactives pour étudiants en Master Communication/Marketing (B1/B2) afin de concevoir des prompts pertinents en français professionnel.
+    </p>
+    <button type="button" class="project-link" onclick="openPromptModal()">
+        En savoir plus 
+    </button>
+</article>
+
+<!-- PROJET 7 : TQUELGENRE -->
+<article class="project-preview">
+    <img src="photoprojets/genre.png" alt="TQuelGenre">
+    <h3>TQuelGenre : Plateforme ludique des genres grammaticaux</h3>
+    <p>
+Apprenez facilement le genre des mots en français avec cette application web interactive alliant mini-jeux ludiques et suivi de progression.
+    </p>
+    <button type="button" class="project-link" onclick="openTquelgenreModal()">
+        En savoir plus 
+    </button>
+</article>
+
+<!-- PROJET 8 : BASE DE RESSOURCES MJC -->
+<article class="project-preview">
+    <img src="photoprojets/base.png" alt="Animation et amélioration d’une Base de ressources MJC">
+    <h3>Animation et amélioration d’une Base de ressources MJC</h3>
+    <p>
+        Structuration d'une base de ressources FLE pour formateurs et animation d'ateliers pratiques autour des outils numériques pour formateurs.
+    </p>
+    <button type="button" class="project-link" onclick="openMjcModal()">
+        En savoir plus 
+    </button>
+</article>
+
+    </div>
+
+</section>
+
+
+            
+
+        <!-- COMPÉTENCES -->
+
+        <section id="competences">
+
+            <p class="section-label">
+                ÉTAPE 03
+            </p>
+
+            <h2>Compétences</h2>
+
+
+    <div class="skills-grid">
+
+        <article class="skill-card">
+
+            <h3>Ingénierie pédagogique</h3>
+
+            <p>
+                Analyse des besoins, identification des situations de travail,
+                définition des objectifs pédagogiques et structuration des parcours
+                de formation. Co-conception avec les experts métier et les enseignants,
+                conception d’activités d’apprentissage fondées sur des approches actives
+                et animation d’ateliers collaboratifs.
+            </p>
+
+            <div class="tags">
+
+                <span>Analyse des besoins</span>
+                <span>Co-conception</span>
+                <span>Storytelling</span>
+                <span>Gamification</span>
+                <span>Études de cas</span>
+                <span>Hybridation</span>
+                <span>Animation d'ateliers</span>
+
+            </div>
+
+        </article>
+
+        <article class="skill-card">
+
+            <h3>Médiatisation et intégration</h3>
+
+            <p>
+                Conception et production de ressources pédagogiques numériques :
+                identités visuelles, illustrations, infographies, animations,
+                vidéos et contenus interactifs. Intégration et paramétrage de
+                contenus dans des LMS et outils auteurs.
+            </p>
+
+            <div class="tags">
+
+                <span>IA générative</span>
+                <span>Storyline</span>
+                <span>Moodle</span>
+                <span>Rise</span>
+                <span>Genially</span>
+                <span>Design graphique</span>
+                <span>Vidéo</span>
+                <span>Audio</span>
+                <span>HTML/CSS</span>
+                <span>Accessibilité</span>
+
+            </div>
+
+        </article>
+
+        <article class="skill-card">
+
+            <h3>Accompagnement des acteurs</h3>
+
+            <p>
+                Accompagnement des experts métier, des enseignants et des apprenants
+                dans l’appropriation des outils et des méthodes pédagogiques.
+                Conception de guides, tutoriels et animation d’ateliers favorisant
+                l’autonomie numérique.
+            </p>
+
+            <div class="tags">
+
+                <span>Hackathons pédagogiques</span>
+                <span>Tutoriels</span>
+                <span>Guides</span>
+                <span>Formation de formateurs</span>
+                <span>Intelligence collective</span>
+
+            </div>
+
+        </article>
+
+        <article class="skill-card">
+
+            <h3>Communication et valorisation</h3>
+
+            <p>
+                Promotion des formations et valorisation des projets pédagogiques
+                à travers la conception de campagnes de communication, la création
+                de supports visuels et numériques, l’organisation d’événements
+                et la mise en œuvre d’actions favorisant l’engagement des publics.
+            </p>
+
+            <div class="tags">
+
+                <span>Campagnes de communication</span>
+                <span>Événementiel</span>
+                <span>Supports visuels</span>
+                <span>Communication digitale</span>
+                <span>Engagement des publics</span>
+
+            </div>
+
+        </article>
+
+    </div>
+  
+
+        </section>
+
+        <!-- OUTILS -->
+
+        <section id="outils">
+
+            <p class="section-label">
+                ÉTAPE 04
+            </p>
+
+           
+            <h2>Ma boîte à outils</h2>
+            <br> 
+
+    <img
+        class="toolbox-image"
+        src="mes outils.png"
+        alt="Ma boîte à outils">
+
+        </section>
+
+        <!-- MÉTHODE -->
+
+        <section id="methode">
+
+    <p class="section-label">
+        ÉTAPE 05
+    </p>
+
+    <h2>Ma méthode</h2>
+
+    <div class="method-container">
+
+        <div class="method-nav">
+
+            <button class="method-step active" data-target="analyse">
+                01 Analyse du besoin
+            </button>
+
+            <button class="method-step" data-target="cadrage">
+                02 Cadrage du projet
+            </button>
+
+            <button class="method-step" data-target="conception">
+                03 Co-conception pédagogique
+            </button>
+
+            <button class="method-step" data-target="multimedia">
+                04 Production multimédia
+            </button>
+
+            <button class="method-step" data-target="integration">
+                05 Intégration et diffusion
+            </button>
+
+            <button class="method-step" data-target="recettage">
+                06 Recettage et amélioration continue
+            </button>
+
+            <button class="method-step" data-target="animation">
+                07 Animation et accompagnement des équipes pédagogiques
+            </button>
+
+        </div>
+
+        <div class="method-content">
+
+            <!-- Analyse -->
+
+            <div class="method-panel active" id="analyse">
+
+                <h3>Analyse du besoin</h3>
+
+                <h4>Objectif</h4>
+
+                <p>
+                    Comprendre la situation de travail et les compétences à développer.
+                </p>
+
+                <p>
+                    Je recueille les besoins auprès des parties prenantes afin d’identifier
+                    les objectifs visés, les contraintes du terrain et les situations
+                    professionnelles auxquelles les apprenants seront confrontés.
+                </p>
+
+            </div>
+
+            <!-- Cadrage -->
+
+            <div class="method-panel" id="cadrage">
+
+                <h3>Cadrage du projet</h3>
+
+                <h4>Objectif</h4>
+
+                <p>
+                    Structuration de la démarche de travail.
+                </p>
+
+                <p>
+                    J’organise les informations recueillies afin de clarifier les objectifs
+                    pédagogiques, le périmètre du projet, les publics visés, les modalités
+                    de formation et les indicateurs de réussite.
+                </p>
+
+            </div>
+
+            <!-- Conception -->
+
+            <div class="method-panel" id="conception">
+
+                <h3>Co-conception pédagogique</h3>
+
+                <h4>Objectif</h4>
+
+                <p>
+                    Transformer l’expertise métier en parcours d’apprentissage.
+                </p>
+
+                <p>
+                    J’anime des ateliers avec les experts métier et les formateurs pour identifier
+                    les compétences à acquérir, les situations de travail significatives et les
+                    contenus à intégrer dans le parcours.
+                </p>
+
+                <h4>Méthodes</h4>
+
+                <ul>
+                    <li>Entretiens d’explicitation</li>
+                    <li>Ateliers collaboratifs</li>
+                    <li>Analyse de pratiques</li>
+                    <li>Scénarisation pédagogique</li>
+                </ul>
+
+            </div>
+
+            <!-- Production -->
+
+            <div class="method-panel" id="multimedia">
+
+                <h3>Production multimédia</h3>
+
+                <h4>Objectif</h4>
+
+                <p>
+                    Créer des ressources adaptées aux usages.
+                </p>
+
+                <p>
+                    Création d’identités visuelles, illustrations, personnages, infographies,
+                    animations et vidéos pédagogiques. Utilisation d’outils d’intelligence
+                    artificielle pour soutenir la conception et la production des ressources.
+                </p>
+
+            </div>
+
+            <!-- Integration -->
+
+            <div class="method-panel" id="integration">
+
+                <h3>Intégration et diffusion</h3>
+
+                <h4>Objectif</h4>
+
+                <p>
+                    Rendre le dispositif accessible aux apprenants.
+                </p>
+
+                <p>
+                    J’intègre les contenus dans les outils de diffusion (LMS, Storyline,
+                    Rise, Genially) et réalise leur configuration : organisation des parcours,
+                    paramétrage des activités, gestion des accès, suivi de la progression et
+                    mise en place des évaluations.
+                </p>
+
+            </div>
+
+            <!-- Recettage -->
+
+            <div class="method-panel" id="recettage">
+
+                <h3>Recettage et amélioration continue</h3>
+
+                <h4>Objectif</h4>
+
+                <p>
+                    Garantir la qualité du dispositif.
+                </p>
+
+                <p>
+                    Je réalise les tests fonctionnels et pédagogiques, recueille les retours
+                    des utilisateurs et propose les ajustements nécessaires pour améliorer
+                    l’expérience d’apprentissage.
+                </p>
+
+            </div>
+
+            <!-- Animation -->
+
+            <div class="method-panel" id="animation">
+
+                <h3>Animation et accompagnement des équipes pédagogiques</h3>
+
+                <h4>Objectif</h4>
+
+                <p>
+                    Mobiliser l’expertise des acteurs et favoriser leur autonomie.
+                </p>
+
+                <p>
+                    Animation d’ateliers collaboratifs et de hackathons pédagogiques
+                    permettant aux experts métier et aux formateurs de construire
+                    collectivement les parcours de formation.
+                </p>
+
+                <p>
+                    Conception de guides, tutoriels et ateliers de prise en main pour
+                    faciliter l’appropriation des outils et renforcer l’autonomie
+                    numérique des équipes.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+     <!-- CRÉATION & UNIVERS VISUEL (ÉTAPE 06) -->
+<section id="hobbies">
+
+    <p class="section-label">
+        ÉTAPE 06
+    </p>
+
+    <h2>Création &amp; Univers visuel</h2>
+
+    <p class="creative-intro">
+        Au-delà des outils auteurs, ma pratique artistique nourrit mon regard sur la composition, 
+        la couleur et la narration visuelle appliquée à la pédagogie.
+    </p>
+
+    
+
+    <!-- Galería con las 2 tarjetas -->
+    <div class="creative-grid">
+
+        <!-- Tarjeta 1: Acuarela libro infantil -->
+        <article class="creative-card" data-category="aquarelle">
+            <img src="photoprojets/loup.png" alt="Illustrations pour une histoire pour enfants">
+            <div class="creative-caption">
+                <span class="creative-tag">Aquarelle</span>
+                <h3>EL ECO DEL BOSQUE</h3>
+                <p>Conception de l’univers graphique et narratif d’un conte pour enfants, avec des illustrations réalisées à l’aquarelle.</p>
+                <button type="button" class="card-gallery-btn" data-gallery="aquarelle">
+                    Voir les illustrations →
+                </button>
+            </div>
+        </article>
+
+        <!-- Tarjeta 2: Pintura acrílica -->
+        <article class="creative-card" data-category="acrylique">
+            <img src="photoprojets/peinture1.jpeg" alt="Peinture acrylique">
+            <div class="creative-caption">
+                <span class="creative-tag">Peinture acrylique</span>
+                <h3>Exploration des couleurs &amp; contrastes</h3>
+                <p>Travail sur la lumière, les textures et l’équilibre visuel.</p>
+                <button type="button" class="card-gallery-btn" data-gallery="acrylique">
+                    Voir les peintures →
+                </button>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+        <!-- CONTACT -->
+<section id="contact">
+
+    <p class="section-label">
+        ÉTAPE 07
+    </p>
+
+    <p id="frase-especial">
+        Un projet de formation <br>ou de digital learning en tête ?
+        <span class="frase-accent">Échangeons !</span>
+    </p>
+
+    <div class="contact-items">
+        <div class="contact-card contact-card--static">
+            <span class="contact-icon" aria-hidden="true">📧</span>
+            <span class="contact-label">E-mail</span>
+            <span class="contact-value">gnpaola17@gmail.com</span>
+        </div>
+
+        <a href="https://www.linkedin.com/in/judith-paola-g%C3%B3mez-01b092278/" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-icon" aria-hidden="true">💼</span>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">Voir le profil →</span>
+        </a>
+    </div>
+
+</section>
+
+    </main>
+
+    
+<div id="mesure-modal" class="modal-overlay">
+
+    <div class="modal-content">
+
+        <button
+            type="button"
+            class="modal-close"
+            onclick="closeMesureModal()"
+            aria-label="Fermer la fenêtre">
+
+            ×
+
+        </button>
+
+        <p class="modal-label">
+            FORMATION E-LEARNING
+        </p>
+
+        <h2 class="modal-title">
+            E-Learning « La mesure industrielle »
+        </h2>
+
+        <p class="modal-description">
+            Ce module e-learning accompagne les professionnels dans la compréhension des enjeux de la mesure industrielle. Les apprenants découvrent les concepts fondamentaux de la métrologie, apprennent à sélectionner et gérer les équipements de mesure et développent leur capacité à interpréter les résultats en tenant compte des sources de variabilité.
+        </p>
+
+        <div class="project-detail-layout">
+
+            <!-- COLONNE GAUCHE -->
+            <div class="project-detail-info">
+
+                <div class="modal-cards">
+
+                    <div class="modal-card">
+                        <span>Secteur</span>
+                        <strong>Industrie (Nucléaire).</strong>
+                    </div>
+
+                    <div class="modal-card">
+                        <span>Durée</span>
+                        <strong>20 minutes.</strong>
+                    </div>
+
+                    <div class="modal-card">
+                        <span>Outil auteur</span>
+                        <strong>Articulate Storyline.</strong>
+                    </div>
+
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Stratégie pédagogique :</span>
+                        démonstrative et interrogative / Intégration de cas concrets (mise en pratique). Accroche par des faits historiques liés à des erreurs de mesure / Didactisation de graphiques complexes de métrologie en interactions progressives / Apprentissage actif par la manipulation des données de mesure et la prise de décision.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Création graphique :</span>
+                        Création graphique libre.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Mon rôle</h3>
+                    <div class="role-tags">
+                        <span>Analyse du besoin</span>
+                        <span>Conception pédagogique</span>
+                        <span>Experts métier</span>
+                        <span>Conception graphique</span>
+                        <span>Production multimédia</span>
+                        <span>Intégration</span>
+                        <span>Recette pédagogique</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- COLONNE DROITE (CAPTURES) -->
+            <div class="modal-gallery">
+                <img src="photoprojets/1mesure.png" alt="Capture 1 - La mesure industrielle">
+                <img src="photoprojets/2mesure.png" alt="Capture 2 - Tri des équipements de mesure">
+                <img src="photoprojets/3mesure.png" alt="Capture 3 - Les coûts de la mesure">
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- MODAL PROJET PRISES DE VUES -->
+
+<div id="prises-modal" class="modal-overlay modal-mesure">
+
+    <div class="modal-content">
+
+        <button
+            type="button"
+            class="modal-close"
+            onclick="closePrisesModal()"
+            aria-label="Fermer la fenêtre">
+
+            ×
+
+        </button>
+
+        <p class="modal-label">
+            FORMATION E-LEARNING
+        </p>
+
+        <h2 class="modal-title">
+            E-Learning « Prises de vues »
+        </h2>
+
+        <p class="modal-description">
+            Ce module e-learning présente la procédure à suivre pour prendre des photographies en entreprise et précise les cas autorisés ainsi que les interdictions.
+        </p>
+
+        <div class="project-detail-layout">
+
+            <!-- COLONNE GAUCHE -->
+            <div class="project-detail-info">
+
+                <div class="modal-cards">
+
+                    <div class="modal-card">
+                        <span>Secteur</span>
+                        <strong>Industrie (Nucléaire).</strong>
+                    </div>
+
+                    <div class="modal-card">
+                        <span>Durée</span>
+                        <strong>15 minutes.</strong>
+                    </div>
+
+                    <div class="modal-card">
+                        <span>Outil auteur</span>
+                        <strong>Articulate Storyline.</strong>
+                    </div>
+
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Stratégie pédagogique :</span>
+                        active et participative / Apprentissage par la découverte.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Particularités :</span>
+                        Structure en missions progressives. L'apprenant découvre les protocoles de sécurité en accomplissant des tâches.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Création graphique :</span>
+                        Création graphique libre.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Mon rôle</h3>
+                    <div class="role-tags">
+                        <span>Analyse de besoin</span>
+                        <span>Conception pédagogique avec les experts</span>
+                        <span>Conception graphique</span>
+                        <span>Production multimédia</span>
+                        <span>Intégration</span>
+                        <span>Recette</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- COLONNE DROITE (CAPTURES) -->
+            <div class="modal-gallery">
+                <img src="photoprojets/2prise.png" alt="Capture 1 - Prises de vues">
+                <img src="photoprojets/1prise.png" alt="Capture 2 - Prises de vues">
+                <img src="photoprojets/3prise.png" alt="Capture 3 - Prises de vues">
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- MODAL PROJET VALISE DE DÉFAILLANCES ÉLECTRIQUES -->
+
+<div id="valise-modal" class="modal-overlay modal-mesure">
+
+    <div class="modal-content">
+
+        <button
+            type="button"
+            class="modal-close"
+            onclick="closeValiseModal()"
+            aria-label="Fermer la fenêtre">
+
+            ×
+
+        </button>
+
+        <p class="modal-label">
+            FORMATION HYBRIDE
+        </p>
+
+        <h2 class="modal-title">
+            Rise – Valise de défaillances électriques
+        </h2>
+
+        <p class="modal-description">
+            Parcours interactif consacré à la détection de défaillances électriques et au diagnostic terrain. Ce module e-learning constitue la première étape d'un dispositif de formation hybride, préparant les apprenants aux exercices pratiques sur le terrain.
+        </p>
+
+        <div class="project-detail-layout">
+
+            <!-- COLONNE GAUCHE -->
+            <div class="project-detail-info">
+
+                <div class="modal-cards">
+
+                    <div class="modal-card">
+                        <span>Secteur</span>
+                        <strong>Industrie (Nucléaire).</strong>
+                    </div>
+
+                    <div class="modal-card">
+                        <span>Durée</span>
+                        <strong>15 minutes.</strong>
+                    </div>
+
+                    <div class="modal-card">
+                        <span>Outil auteur</span>
+                        <strong>Articulate Rise.</strong>
+                    </div>
+
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Stratégie pédagogique :</span>
+                        approche tutorielle et démonstrative pas à pas illustrée d'images, en amont d'exercices pratiques dans le cadre d'une formation hybride.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Création graphique :</span>
+                        Création graphique libre.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Mon rôle</h3>
+                    <div class="role-tags">
+                        <span>Analyse de besoin</span>
+                        <span>Conception pédagogique avec les experts</span>
+                        <span>Conception graphique</span>
+                        <span>Production multimédia</span>
+                        <span>Intégration</span>
+                        <span>Recette</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- COLONNE DROITE (CAPTURES) -->
+            <div class="modal-gallery">
+                <img src="photoprojets/2valise.png" alt="Capture 1 - Valise de défaillances électriques">
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- MODAL 4 : FRANÇAIS CHWIYA B CHWIYA (VIDÉO) -->
+<div id="chwiya-modal" class="modal-overlay modal-mesure">
+    <div class="modal-content">
+        <button type="button" class="modal-close" onclick="closeChwiyaModal()" aria-label="Fermer la fenêtre">×</button>
+
+        <p class="modal-label">Formation e-learning</p>
+        <h2 class="modal-title">E-Learning « Français chwiya b chwiya » chez Access Teleservices</h2>
+        <p class="modal-description">
+            Ce projet s'adresse aux téléconseillers arabophones confrontés à des difficultés récurrentes à l'oral en français, notamment sur le registre de langue et les transferts linguistiques depuis l'arabe ayant un impact sur la satisfaction client. Le dispositif propose des activités interactives ancrées dans des appels simulés et des situations quotidiennes du métier.
+        </p>
+
+        <div class="project-detail-layout">
+            <div class="project-detail-info">
+                <div class="modal-cards">
+                    <div class="modal-card">
+                        <span>Secteur</span>
+                        <strong>Relation client, français <br> langue étrangère.</strong>
+                    </div>
+                    <div class="modal-card">
+                        <span>Durée</span>
+                        <strong>35 minutes.</strong>
+                    </div>
+                    <div class="modal-card">
+                        <span>Outil auteur</span>
+                        <strong>Articulate Storyline.</strong>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Approche pédagogique :</span>
+                        mises en situation professionnelles à travers des appels simulés et des cas pratiques du quotidien pour travailler l'adaptation du registre et limiter les transferts linguistiques.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Création graphique :</span>
+                        Création graphique libre.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Mon rôle</h3>
+                    <div class="role-tags">
+                        <span>Analyse du besoin</span>
+                        <span>Design graphique</span>
+                        <span>Production multimédia</span>
+                        <span>Intégration</span>
+                    </div>
+                </div>
+            </div>
+
+      <div class="modal-media">
+    <h3>Présentation vidéo</h3>
+    <div class="embed-frame">
+        <iframe
+            src="https://www.youtube.com/embed/Mb3LKc4W578?rel=0"
+            title="Présentation vidéo — Français chwiya b chwiya"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            loading="lazy">
+        </iframe>
+    </div>
+</div>>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 5 : START-E-FLE (GENIALLY) -->
+<div id="start-fle-modal" class="modal-overlay modal-mesure">
+    <div class="modal-content">
+        <button type="button" class="modal-close" onclick="closeStartFleModal()" aria-label="Fermer la fenêtre">×</button>
+
+        <p class="modal-label">PARCOURS FLE · Moodle</p>
+        <h2 class="modal-title">START-e-FLE</h2>
+        <p class="modal-description">
+            Parcours de français langue étrangère (FLE) en ligne 100 % en autonomie, conçu pour les grands débutants afin d'acquérir les bases de la langue avant d'intégrer un cours hybride ou présentiel au CUEF.
+        </p>
+
+        <div class="project-detail-layout">
+            <div class="project-detail-info">
+                <div class="modal-cards">
+                    <div class="modal-card">
+                        <span>Contexte</span>
+                        <strong>FLE / CUEF.</strong>
+                    </div>
+                    <div class="modal-card">
+                        <span>Durée</span>
+                        <strong>24 heures.</strong>
+                    </div>
+                    <div class="modal-card">
+                        <span>Outils</span>
+                        <strong>Moodle, H5P, Genially.</strong>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Stratégie pédagogique :</span>
+                        formation 100 % en autonomie dans une langue inconnue, appuyée sur les principes multimédias de Mayer pour favoriser la compréhension et sur l'évaluation formative afin d'apporter un retour régulier aux apprenants en l'absence d'un formateur.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Modalités d'évaluation :</span>
+                        évaluation formative, évaluation sommative et autoévaluation.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Création graphique :</span>
+                        Création graphique libre.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Mon rôle</h3>
+                    <div class="role-tags">
+                        <span>Conception pédagogique</span>
+                        <span>Conception graphique</span>
+                        <span>Production multimédia</span>
+                        <span>Intégration</span>
+                        <span>Recette</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-media">
+                <h3>Aperçu interactif (Genially)</h3>
+                <!-- Reemplaza el src por el enlace "Insérer" (embed) de tu Genially -->
+                <div class="embed-frame">
+                    <iframe
+                        src="https://view.genially.com/68cc171a8a20cdd8a1a2c8c4"
+                        title="START-e-FLE Genially"
+                        allowfullscreen="true"
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 6 : RÉDIGER UN BON PROMPT EN MARKETING (LIEN ARTICULATE REVIEW) -->
+<div id="prompt-modal" class="modal-overlay modal-mesure">
+    <div class="modal-content">
+        <button type="button" class="modal-close" onclick="closePromptModal()" aria-label="Fermer la fenêtre">×</button>
+
+        <p class="modal-label">MODULE E-LEARNING</p>
+        <h2 class="modal-title">Rédiger un bon prompt en marketing</h2>
+        <p class="modal-description">
+            Module interactif destiné aux étudiants de Master Communication / Marketing (niveau B1/B2 en français). Les activités guident l'apprenant vers la formulation d'un prompt clair, structuré et adapté à une mission marketing, tout en développant le lexique professionnel en français.
+        </p>
+
+        <div class="project-detail-layout">
+            <div class="project-detail-info">
+                <div class="modal-cards">
+                    <div class="modal-card">
+                        <span>Public / Domaine</span>
+                        <strong>Master Marketing (B1/B2)</strong>
+                    </div>
+                    <div class="modal-card">
+                        <span>Durée</span>
+                        <strong>15 minutes</strong>
+                    </div>
+                    <div class="modal-card">
+                        <span>Outil auteur</span>
+                        <strong>Articulate Storyline</strong>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Approche pédagogique :</span>
+                        exercices interactifs progressifs axés sur la structuration de prompts efficaces et l'acquisition du vocabulaire spécialisé en marketing.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Mon rôle</h3>
+                    <div class="role-tags">
+                        <span>Analyse du besoin</span>
+                        <span>Conception pédagogique</span>
+                        <span>Conception graphique</span>
+                        <span>Production multimédia</span>
+                        <span>Intégration</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-media">
+    <h3>Aperçu de la formation</h3>
+    <a
+        href="https://360.eu.articulate.com/review/content/8aae571f-b6e7-463f-81aa-251f7519147a/review"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="media-link-card"
+        title="Ouvrir la formation sur Articulate Review">
+        <img
+
+            src="photoprojets/prompt apercu.png"
+            width="100%"
+            height="250"
+            alt="Aperçu de la formation Rédiger un bon prompt en marketing">
+
+
+            <span class="media-link-caption">
+            
+            <a
+            href="https://360.eu.articulate.com/review/content/8aae571f-b6e7-463f-81aa-251f7519147a/review"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="review-cta-btn">
+            Voir la formation 
+        </a>
+        </a>
+        </span>
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 7 : TQUELGENRE (VIDÉO YOUTUBE) -->
+<div id="tquelgenre-modal" class="modal-overlay modal-mesure">
+    <div class="modal-content">
+        <button type="button" class="modal-close" onclick="closeTquelgenreModal()" aria-label="Fermer la fenêtre">×</button>
+
+        <p class="modal-label"> Application web </p>
+        <h2 class="modal-title">TQuelGenre</h2>
+        <p class="modal-description">
+            Application web ludique dédiée à l'apprentissage des genres grammaticaux en français grâce à des jeux interactifs permettant de s'entraîner au masculin et au féminin. Projet réalisé en équipe de 4 personnes dans le cadre d'un cas pratique en Master 1.
+        </p>
+
+        <div class="project-detail-layout">
+            <div class="project-detail-info">
+                <div class="modal-cards">
+                    <div class="modal-card">
+                        <span>Format</span>
+                        <strong>Projet M1 (4 personnes)</strong>
+                    </div>
+                    <div class="modal-card">
+                        <span>Technologies</span>
+                        <strong>HTML, CSS, JS, PHP</strong>
+                    </div>
+                    <div class="modal-card">
+                        <span>Public</span>
+                        <strong>Apprenants du français</strong>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Objectifs</h3>
+                    <ul class="modal-list">
+                        <li>Proposer des ressources interactives, des jeux et des explications claires sur un sujet peu couvert de manière ludique.</li>
+                        <li>Permettre un suivi personnalisé de la progression via un tableau de bord.</li>
+                        <li>Offrir un entraînement autonome et flexible, accessible à tout moment.</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Fonctionnalités clés</h3>
+                    <ul class="modal-list">
+                        <li>Jeux et exercices interactifs : glisser-déposer (drag &amp; drop), texte à trous et Space Invader.</li>
+                        <li>Sélection de mots par catégorie ou en mode aléatoire.</li>
+                        <li>Création de listes personnelles de mots à réviser.</li>
+                        <li>Tableau de bord présentant les scores par catégorie.</li>
+                        <li>Système de badges pour soutenir la motivation.</li>
+                        <li>Page Ressources détaillant les règles du genre grammatical, leurs exceptions et leurs usages.</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Mon rôle</h3>
+                    <div class="role-tags">
+                        <span>Conception pédagogique</span>
+                        <span>Conception graphique</span>
+                        <span>Production multimédia</span>
+                        <span>Intégration</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-media">
+                <h3>Présentation vidéo (YouTube)</h3>
+                <!-- Reemplaza "ID_DE_LA_VIDEO" por el ID real de tu vídeo de YouTube -->
+                <div class="embed-frame">
+                    <iframe
+                        src=https://view.genially.com/68d05ca483e17fafb2a806c1
+                        title="Présentation TQuelGenre"
+                        allowfullscreen="true"
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 8 : BASE DE RESSOURCES MJC (GENIALLY) -->
+<div id="mjc-modal" class="modal-overlay modal-mesure">
+    <div class="modal-content">
+        <button type="button" class="modal-close" onclick="closeMjcModal()" aria-label="Fermer la fenêtre">×</button>
+
+        <p class="modal-label">RESSOURCES &amp; ACCOMPAGNEMENT ANIMATEURS</p>
+        <h2 class="modal-title">Animation et amélioration d’une Base de ressources MJC</h2>
+        <p class="modal-description">
+            Intervention articulée autour de deux missions complémentaires : la structuration d'une base de ressources FLE à destination des animateurs et l'animation d'ateliers pratiques pour accompagner les formateurs de français dans l'usage des outils numériques.
+        </p>
+
+        <div class="project-detail-layout">
+            <div class="project-detail-info">
+                <div class="modal-cards">
+                    <div class="modal-card">
+                        <span>Ressources</span>
+                        <strong>Vidéos, photos, infographies</strong>
+                    </div>
+                    <div class="modal-card">
+                        <span>Outils</span>
+                        <strong>Web, Canva, Audacity, Illustrator</strong>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Mission 1 : Base de ressources :</span>
+                        organisation et enrichissement d'une base de données pédagogique destinée aux animateurs, réunissant fiches pratiques, outils numériques et activités adaptées à l'enseignement du FLE.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <p class="modal-inline-text">
+                        <span class="modal-inline-lead">Mission 2 : Ateliers formateurs :</span>
+                        conception et animation d'ateliers de prise en main d'outils numériques afin de favoriser l'appropriation des ressources par les formateurs de français.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Mon rôle</h3>
+                    <div class="role-tags">
+                        <span>Conception pédagogique</span>
+                        <span>Production multimédia</span>
+                        <span>Intégration</span>
+                        <span>Conception et animation d'ateliers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-media">
+                <h3>Aperçu interactif (Genially)</h3>
+                <div class="embed-frame">
+                    <iframe
+                        src="https://view.genially.com/68c84f020de733121bd841e8"
+                        title="Base de ressources MJC Genially"
+                        allowfullscreen="true"
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- MODAL GALERÍA POR CATEGORÍA -->
+<div id="gallery-modal" class="project-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-gallery></div>
+
+    <div class="modal-dialog modal-creative-dialog" role="dialog" aria-modal="true" aria-labelledby="gallery-modal-title">
+        <button type="button" class="modal-close" data-close-gallery aria-label="Fermer">✕</button>
+
+        <p class="section-label" id="gallery-modal-tag">GALERIE VISUELLE</p>
+        <h2 id="gallery-modal-title">Créations</h2>
+
+        <!-- Galería 1: Acuarelas libro infantil -->
+        <div class="gallery-group" data-gallery-group="aquarelle">
+            <img src="photoprojets/conte.png" alt="Illustration aquarelle">
+        </div>
+
+        <!-- Galería 2: Pintura acrílica -->
+        <div class="gallery-group" data-gallery-group="acrylique">
+            <img src="photoprojets/peinture2.png" alt="Peinture acrylique 1">
+    
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
