@@ -304,7 +304,7 @@ const galleryLabels = {
     tag: 'LIVRE POUR ENFANTS',
   },
   acrylique: {
-    tag: 'PEINTURE ACRYLIQUE',
+    tag: 'PEINTURE',
     
   }
 };
